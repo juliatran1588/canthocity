@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<head>
+  
+    <link rel="stylesheet" type="text/css" href="page2.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <style>
+        * {
+      box-sizing: border-box;
+    }
+      .row::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+      [class*="col-"] {
+        float: left;
+        padding: 15px;
+        }
+      
+     /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    @media only screen 
+      and (min-device-width: 768px)   
+      and (max-device-width: 991px) {
+        /* Medium devices (landscape tablets, 768px and up) */
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen 
+      and (min-device-width: 992px) {
+        /* Large devices (laptops/desktops, 992px and up) */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    }
+   
+    @media only screen 
+      and (min-device-width: 992px) {
+        #about p {
+    font-size: 2vw;
+}
+
+#do p {
+    font-size: 2vw;
+}
+
+#transportation p {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+li a {
+    font-size: 1.5vw;
+}
+p {
+    font-size: 1.7vw;
+}
+li {
+    font-size: 1.7vw;
+}
+img {
+    width: 60vw;
+  }
+
+#picture1 {
+    display: none;
+}
+      }
+
+      @media only screen 
+      and (min-device-width: 768px)   
+      and (max-device-width: 991px) {
+        #about p {
+    font-size: 2vw;
+}
+
+#do p {
+    font-size: 2vw;
+}
+
+#transportation p {
+    font-size: 2vw;
+}
+img {
+    width: 90vw;
+}
+h2 {
+    font-size: 3vw;
+}
+  h1 {
+    font-size: 5vw;
+}
+  li a {
+    font-size: 1.5vw;
+}
+  p {
+    font-size: 1.7vw;
+}
+
+li {
+    font-size: 1.7vw;
+}
+  #picture1 {
+    display: none;
+  }
+
+      }
+
+      @media only screen 
+      and (max-device-width: 767px) {
+        #navigation_bar li {
+    float: none;
+        }
+
+img {
+    width: 90vw;
+}
+h1 {
+    font-size: 10vw;
+}
+h2 {
+    font-size: 6vw;
+}
+li a {
+    font-size: 3.4vw;
+}
+p {
+    font-size: 3.4vw;
+}
+
+li {
+    font-size: 3.4vw;
+}
+#about {
+    border: 1px solid black;
+    float: left;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#do {
+    border: 1px solid black;
+    float: right;
+    padding-right: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#do p {
+    font-size: 4.2vw;
+}
+
+#about p {
+    font-size: 4.2vw;
+}
+
+#transportation {
+    border: 1px solid black;
+    float: left;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+#transportation1 {
+    border: 1px solid black;
+}
+#transportation2 {
+    border: 1px solid black;
+}
+#transportation p {
+    font-size: 4.2vw;
+}
+
+  #about1 {
+    border: 1px solid black;
+    float: right;
+    padding-left: 10px;
+  }
+
+  #other {
+    border: 1px solid black;
+    float: left;
+    padding-right: 10px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  #xxx {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #picture2 {
+    display: none;
+}
+    }
+    </style>
+    <title>Can Tho City</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Can Tho City</h1>
+    </header>
+    <div id="navigation_bar">
+        <ul>
+            <li><a href="menu.html">Home</a></li>
+            <li><a href="page2.html">Cai Rang Floating Market</a></li>
+            <li><a class="active" href="page3.html">My Khanh Ecotourism</a></li>
+            <li><a href="page4.html">Can Tho Bridge</a></li>
+            <li><a href="page5.html">Thien Vien Truc Lam Phuong Nam</a></li>
+        </ul>
+    </div>
+
+    <div class="row">
+    <div id="about" class="col-8 col-s-12">
+        <p>About</p>
+    </div>
+    </div>
+
+    <br>
+    
+
+    <div class="row">
+
+    <div class="col-8 col-s-12" style="float: left;padding-left: 5px;">
+      <img src="https://file.alotrip.com/photo/can-tho/sightseeing/my-khanh-tourist-village/my-khanh-tourist-village-in-can-tho-859.jpeg" alt="My Khanh Ecotourism">
+      <p style="text-align: center;"><i>Source:https://www.alotrip.com/</i></p>
+    </div>
+
+    <div class="col-4 col-s-12" id="about1">
+      <p> My Khanh Tourist Village is one of the alluring eco-tourism attractions in Can Tho city. With an area of over 50,000m2, My Khanh is situated between Cai 
+          Rang Floating Market and Phong Dien Floating Market. It is a credibly unique and attractive tourist area, which meets the need of entertainment and 
+          relaxation of tourists both at home and abroad. Tourists can easily go to My Khanh Tourist Village by road or waterway through Cai Rang floating market. 
+          Here, tourists can comfortably go sightseeing, feel the fresh atmosphere while taking a stroll under the cool shade of trees with the "genuine" rural 
+          house hiding under the green canopy.
+        <br> 
+        <br>
+        <i>Source:https://www.alotrip.com/</i>
+      </p>
+    </div>   
+  </div>
+
+  <br>
+  <div class="row">
+    <div id="do" class="col-8 col-s-12">
+        <p>What to do ?</p>
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-8 col-s-12" id="picture1" style="float: right;">
+      <img src="https://dulichfun.com/wp-content/uploads/2017/12/Lang-du-lich-My-Khanh-Can-Tho-co-tro-choi-gi-vui-thu-vi.jpg" alt="Pig racing">
+      <p style="text-align: center;"><i>Source:https://dulichfun.com</i></p>
+    </div>
+
+    <div id="other" class="col-4 col-s-12">
+        <ul>
+        <li>Pig racing </li>
+        <li>Dog Racing</li>
+        <li>enjoy local food in (South) Restaurant II, Thuy Ta Restaurant and Yacht Restaurant... with wide range of diverse menu</li>
+        <li>fishing crocodile</li>
+        <li>trawling</li>
+        <li>bridge of magpie</li>
+        <li>fruit garden</li>
+        <li>"Vong Co" (a kind of traditional folk singing in the South Vietnam) singing</li>
+        <li>Horse Riding</li>
+        <li>boating</li>
+        <li>ancient house</li>
+        <li>And many more</li>
+    </ul>
+    </div>
+
+    <div class="col-8 col-s-12" id="picture2" style="float: right;">
+        <img src="https://dulichfun.com/wp-content/uploads/2017/12/Lang-du-lich-My-Khanh-Can-Tho-co-tro-choi-gi-vui-thu-vi.jpg" alt="Pig racing">
+        <p style="text-align: center;"><i>Source:https://dulichfun.com</i></p>
+    </div>
+    
+  </div>
+   
+  <div class="row">
+    <div id="transportation" class="col-8 col-s-12">
+        <p>Not to forget</p>
+    </div>
+    </div>
+
+    <br>
+    
+
+    <div class="row">
+
+    <div class="col-5 col-s-12" id="transportation1">
+      <p>Information</p>
+          <ul>
+        <li>Address: No. 335, Vong Cung boulevard, My Khanh, Phong Dien district, Can Tho City</li>
+        <li>Phone number: 0292. 3846260 or 0292.3738.738</li>
+        <li>Email: mykhanhtourist@gmail.com</li>
+        <li>Website: mykhanh.com</li>
+        <li>Facebook: facebook.com/langdulichmykhanhcantho</li>
+        <li>Open time: 7h-17h</li>
+        </ul>
+        
+    </div>
+
+    <div class="col-6 col-s-12" id="transportation2">
+      <p>Accommodation</p>
+          <ul>
+        <li>Single room : 2 people <br>600.000vnd</li>
+        <li>Twin room : 3 people <br>750.000vnd</li>
+        <li>Double Room : 4 people <br>850.000vnd</li>
+            </ul>
+        <p>This room rate includes: free admission to zone 2,3 (60.000 vnd/person - excluding holidays), swimming pool.</p>       
+            
+              
+    </div>   
+  </div>
+
+    <div id="xxx">
+      <h2>Can Tho City - The heart of Mekong Delta</h2>
+    </div>
+  
+    <footer>
+      <div id="footer1">
+      <p>This website is made by J.T</p>
+    </div>
+    </footer>
+
+</body>
+
+</html>

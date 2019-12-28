@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+
+<head>
+  
+    <link rel="stylesheet" type="text/css" href="page2.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <style>
+        * {
+      box-sizing: border-box;
+    }
+      .row::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+      [class*="col-"] {
+        float: left;
+        padding: 15px;
+        }
+      
+     /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    @media only screen 
+      and (min-device-width: 768px)   
+      and (max-device-width: 991px) {
+        /* Medium devices (landscape tablets, 768px and up) */
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen 
+      and (min-device-width: 992px) {
+        /* Large devices (laptops/desktops, 992px and up) */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    }
+   
+    @media only screen 
+      and (min-device-width: 992px) {
+        #about p {
+    font-size: 2vw;
+}
+
+#do p {
+    font-size: 2vw;
+}
+
+#transportation p {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+li a {
+    font-size: 1.5vw;
+}
+p {
+    font-size: 1.7vw;
+}
+li {
+    font-size: 1.7vw;
+}
+img {
+    width: 60vw;
+  }
+
+#picture1 {
+    display: none;
+}
+      }
+
+      @media only screen 
+      and (min-device-width: 768px)   
+      and (max-device-width: 991px) {
+        #about p {
+    font-size: 2vw;
+}
+
+#do p {
+    font-size: 2vw;
+}
+
+#transportation p {
+    font-size: 2vw;
+}
+img {
+    width: 90vw;
+}
+h2 {
+    font-size: 3vw;
+}
+  h1 {
+    font-size: 5vw;
+}
+  li a {
+    font-size: 1.5vw;
+}
+  p {
+    font-size: 1.7vw;
+}
+
+li {
+    font-size: 1.7vw;
+}
+  #picture1 {
+    display: none;
+  }
+
+      }
+
+      @media only screen 
+      and (max-device-width: 767px) {
+        #navigation_bar li {
+    float: none;
+        }
+
+img {
+    width: 90vw;
+}
+h1 {
+    font-size: 10vw;
+}
+h2 {
+    font-size: 6vw;
+}
+li a {
+    font-size: 3.4vw;
+}
+p {
+    font-size: 3.4vw;
+}
+
+li {
+    font-size: 3.4vw;
+}
+#about {
+    border: 1px solid black;
+    float: left;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#do {
+    border: 1px solid black;
+    float: right;
+    padding-right: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#do p {
+    font-size: 4.2vw;
+}
+
+#about p {
+    font-size: 4.2vw;
+}
+
+#transportation {
+    border: 1px solid black;
+    float: left;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+#transportation1 {
+    border: 1px solid black;
+}
+#transportation2 {
+    border: 1px solid black;
+}
+#transportation p {
+    font-size: 4.2vw;
+}
+
+  #about1 {
+    border: 1px solid black;
+    float: right;
+    padding-left: 10px;
+  }
+
+  #other {
+    border: 1px solid black;
+    float: left;
+    padding-right: 10px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  #xxx {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #picture2 {
+    display: none;
+}
+    }
+    </style>
+    <title>Can Tho City</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Can Tho City</h1>
+    </header>
+    <div id="navigation_bar">
+        <ul>
+            <li><a href="menu.html">Home</a></li>
+            <li><a class="active" href="page2.html">Cai Rang Floating Market</a></li>
+            <li><a href="page3.html">My Khanh Ecotourism</a></li>
+            <li><a href="page4.html">Can Tho Bridge</a></li>
+            <li><a href="page5.html">Thien Vien Truc Lam Phuong Nam</a></li>
+        </ul>
+    </div>
+
+    <div class="row">
+    <div id="about" class="col-8 col-s-12">
+        <p>About</p>
+    </div>
+    </div>
+
+    <br>
+    
+
+    <div class="row">
+
+    <div class="col-8 col-s-12" style="float: left;padding-left: 5px;">
+      <img src="https://image.vietnamnews.vn//uploadvnnews/Article/2016/7/10/CaiRang22160317PM.jpg" alt="Cai Rang Floating Market">
+      <p style="text-align: center;"><i>Source:https://vietnamnews.vn/</i></p>
+    </div>
+
+    <div class="col-4 col-s-12" id="about1">
+      <p> Cai Rang Market is the main wholesale floating market near Can Tho. 
+          Go there early in the morning (as early as 5:30am), and come back through the small tributaries to Can Tho river; about 3-4 hours.
+          Cai Rang Floating Market is located on Cai Rang River, about 6 km from the city center by road, and about 30 minutes by boat from 
+          Ninh Kieu Pier. The need of exchanging agricultural products, and basic things connected local people by boats on rivers. Since 
+          then, in spite of widely developed road transportation, 
+          the floating market remains and develops more bustling.
+        <br>
+        Open time : 4h00-11h00
+      </p>
+    </div>   
+  </div>
+
+  <br>
+  <div class="row">
+    <div id="do" class="col-8 col-s-12">
+        <p>What to do ?</p>
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-8 col-s-12" id="picture1" style="float: right;">
+      <img src="https://www.indochina.tours/wp-content/uploads/2017/06/Cai-Rang-Floating-Market.jpeg" alt="Cai Rang Floating Market">
+      <p  style="text-align: center;"><i>Source: https://www.indochina.tours/</i></p>
+    </div>
+
+    <div id="other" class="col-4 col-s-12">
+        <ul>
+        <li>take a boat trip to explore the floating market</li>
+        <li>enjoy local food with local products: freshest fruits harvested from the farm like durian, milk fruit, rambutan, mangosteen, grapefruit, etc., 
+          or even other processed specialties, such as fish sauce, coconut candy, or dried fishes... and local dishes: pho, hu tieu, com tam, bun rieu,..</li>
+        <li>have a tour around the market (on land) </li>
+        <li>wave at the locals, they will wave back </li>
+        <li>buy coconut, fruits and other food on the floating market</li>
+    </ul>
+    </div>
+
+    <div class="col-8 col-s-12" id="picture2" style="float: right;">
+      <img src="https://www.indochina.tours/wp-content/uploads/2017/06/Cai-Rang-Floating-Market.jpeg" alt="Cai Rang Floating market">
+      <p style="text-align: center;"><i>Source: https://www.indochina.tours/</i></p>
+    </div>
+    
+  </div>
+   
+  <div class="row">
+    <div id="transportation" class="col-8 col-s-12">
+        <p>How to get there from Ho Chi Minh City?</p>
+    </div>
+    </div>
+
+    <br>
+    
+
+    <div class="row">
+
+    <div class="col-5 col-s-12" id="transportation1">
+      <p>By coach</p>
+          <ul>
+        <li>Futa Buslines</li>
+        <li>Thanh Buoi</li>
+        <li>and many more</li>
+        </ul>
+        <p>The price is cheap and acceptable</p>
+    </div>
+
+    <div class="col-6 col-s-12" id="transportation2">
+      <p>By renting car</p>
+          <ul>
+        <li>4 seats : 2,200,000 vnd</li>
+        <li>7 seats : 2,300,000 vnd</li>
+        <li>16 seats : 2,800,000 vnd</li>
+        <li>29 seats : 5,000,000 vnd</li>
+        
+            </ul>
+        <p>The price may change due to currency fluctuation, fuel prices and/or unforeseen economic circumstances and time in the year.</p>
+      
+    </div>   
+  </div>
+
+    <div id="xxx">
+      <h2>Can Tho City - The heart of Mekong Delta</h2>
+    </div>
+  
+    <footer>
+      <div id="footer1">
+      <p>This website is made by J.T</p>
+    </div>
+    </footer>
+
+</body>
+
+</html>

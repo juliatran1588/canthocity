@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<head>
+  
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <style>
+        * {
+      box-sizing: border-box;
+    }
+      .row::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+      [class*="col-"] {
+        float: left;
+        padding: 15px;
+        }
+      
+     /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    @media only screen 
+      and (min-device-width: 768px)   
+      and (max-device-width: 991px) {
+        /* Medium devices (landscape tablets, 768px and up) */
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen 
+      and (min-device-width: 992px) {
+        /* Large devices (laptops/desktops, 992px and up) */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    }
+    
+    @media only screen 
+      and (min-device-width: 768px)   
+      and (max-device-width: 991px) {
+        img {
+          width: 90vw;
+      }
+
+        li a {
+          font-size: 1.5vw;
+      }
+      
+      h2 {
+    font-size: 3vw;
+}
+  h1 {
+    font-size: 5vw;
+}
+
+  p {
+    font-size: 1.7vw;
+}
+
+        #picture1 {
+          display: none;
+        }
+      }
+    
+      @media only screen 
+      and (min-device-width: 992px) {
+        h1 {
+    font-size: 5vw;
+}
+li a {
+    font-size: 1.5vw;
+}
+h2 {
+  font-size: 3vw;
+}
+p {
+    font-size: 1.7vw;
+}
+img {
+    width: 60vw;
+  }
+
+#picture1 {
+    display: none;
+}
+      }
+
+      @media only screen 
+      and (max-device-width: 767px) {
+        li {
+    float: none;
+}
+img {
+    width: 90vw;
+}
+h1 {
+    font-size: 10vw;
+}
+h2 {
+  font-size: 6vw;
+}
+li a {
+    font-size: 3.4vw;
+}
+p {
+    font-size: 3.4vw;
+}
+
+#about {
+    border: 1px solid black;
+    float: right;
+    padding-left: 10px;
+  }
+
+  #other {
+    border: 1px solid black;
+    float: left;
+    padding-right: 10px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  #xxx {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #picture2 {
+    display: none;
+}
+      }
+    </style>
+    <title>Can Tho City</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Can Tho City</h1>
+    </header>
+    <div id="navigation_bar">
+        <ul>
+            <li><a class="active" href="menu.html">Home</a></li>
+            <li><a href="page2.html">Cai Rang Floating Market</a></li>
+            <li><a href="page3.html">My Khanh Ecotourism</a></li>
+            <li><a href="page4.html">Can Tho Bridge</a></li>
+            <li><a href="page5.html">Thien Vien Truc Lam Phuong Nam</a></li>
+        </ul>
+    </div>
+
+    <div class="row">
+
+    <div class="col-8 col-s-12" style="float: left;padding-left: 5px;">
+      <img src="https://efly.vn/uploads/images/news/1-can-tho.jpg" alt="Can Tho City">
+      <p style="text-align: center;"><i>Source: https://efly.vn</i></p>
+    </div>
+
+    <div class="col-4 col-s-12" id="about">
+      <p> <strong>Can Tho </strong>(or Cantho; Vietnamese: Cần Thơ) is the biggest city of the Mekong Delta, in Vietnam with an estimated population 
+        of 1,5 million as of 2012.
+        Can Tho has a reputation for being a welcoming place, where everybody is smiling and welcoming. 
+        Indeed the Vietnamese in the Mekong Delta are making good a saying that goes:
+               <br> <i>"Cần Thơ gạo trắng nước trong</i>
+               <br> <i>Ai đi tới đó lòng không muốn về"</i>
+               <br> <i>"Cần Thơ, white rice, clear waters,</i>
+               <br> <i>All who come wish never to leave."</i>
+        <br>
+        Can Tho province's travel destination
+        <br>It is also referred to as <strong>"Tay Do"</strong> meaning "Western capital". Can Tho is a good place to visit. 
+        The city is famous for its floating markets, Buddhist pagodas, delicious food and fresh fruits and the beauty of the Mekong delta.
+             <br>
+             <br>
+             <br>
+        <i>Source: http://visavietnam.net.vn/</i>
+      </p>
+    </div>   
+  </div>
+
+  <div class="row">
+    <div class="col-8 col-s-12" id="picture1" style="float: right;">
+      <img src="http://imgs.vietnamnet.vn/Images/2017/08/24/07/20170824075752-can-tho.jpg" alt="Can Tho Bridge">
+      <p style="text-align: center;"><i>Source: http://imgs.vietnamnet.vn</i></p>
+    </div>
+
+    <div id="other" class="col-4 col-s-12">
+      <p>Although developing fast (about 10% growth per year since 2004), it retains its charm as the center of a rural area, as urban development 
+        is taking place in a rather orderly manner.
+        <strong>Can Tho</strong> is located on the south bank of the Hậu River, the bigger branch of the Mekong River. It is in vicinity to Sóc Trăng, 1.5 hours from 
+        Long Xuyen, 3 hours from Châu Đốc and Rạch Giá, about 6 hours from Cà Mau, and 169 km (3 hours) from Ho Chi Minh City.
+        The climate is tropical and monsoonal with two seasons: rainy, from May to November; and dry, from December to April. 
+        Average annual humidity is 83%, rainfall 1,635 mm and temperature 27 °C
+        <br>        
+        <br>
+        <br>
+        <i>Source: http://visavietnam.net.vn/</i></p>
+    </div>
+
+    <div class="col-8 col-s-12" id="picture2" style="float: right;">
+      <img src="http://imgs.vietnamnet.vn/Images/2017/08/24/07/20170824075752-can-tho.jpg" alt="Can Tho Bridge">
+      <p style="text-align: center;"><i>Source: http://imgs.vietnamnet.vn</i></p>
+    </div>
+    
+  </div>
+   
+    <div id="xxx">
+      <h2>Can Tho City - The heart of Mekong Delta</h2>
+    </div>
+  
+    <footer>
+      <div id="footer1">
+      <p>This website is made by J.T</p>
+    </div>
+    </footer>
+
+</body>
+
+</html>

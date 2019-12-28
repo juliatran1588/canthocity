@@ -1,0 +1,31 @@
+#about p {
+    font-size: 2vw;
+}
+
+#do p {
+    font-size: 2vw;
+}
+
+#transportation p {
+    font-size: 2vw;
+}
+img {
+    width: 90vw;
+}
+
+  h1 {
+    font-size: 4vw;
+}
+  li a {
+    font-size: 1.5vw;
+}
+  p {
+    font-size: 1.7vw;
+}
+
+li {
+    font-size: 1.7vw;
+}
+  #picture1 {
+    display: none;
+  }

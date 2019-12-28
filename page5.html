@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<head>
+  
+    <link rel="stylesheet" type="text/css" href="page2.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <style>
+        * {
+      box-sizing: border-box;
+    }
+      .row::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+      [class*="col-"] {
+        float: left;
+        padding: 15px;
+        }
+      
+     /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    @media only screen 
+      and (min-device-width: 768px)   
+      and (max-device-width: 991px) {
+        /* Medium devices (landscape tablets, 768px and up) */
+        .col-s-1 {width: 8.33%;}
+        .col-s-2 {width: 16.66%;}
+        .col-s-3 {width: 25%;}
+        .col-s-4 {width: 33.33%;}
+        .col-s-5 {width: 41.66%;}
+        .col-s-6 {width: 50%;}
+        .col-s-7 {width: 58.33%;}
+        .col-s-8 {width: 66.66%;}
+        .col-s-9 {width: 75%;}
+        .col-s-10 {width: 83.33%;}
+        .col-s-11 {width: 91.66%;}
+        .col-s-12 {width: 100%;}
+    }
+    
+    @media only screen 
+      and (min-device-width: 992px) {
+        /* Large devices (laptops/desktops, 992px and up) */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    }
+   
+    @media only screen 
+      and (min-device-width: 992px) {
+        #about p {
+    font-size: 2vw;
+}
+
+#do p {
+    font-size: 2vw;
+}
+
+#transportation p {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+li a {
+    font-size: 1.5vw;
+}
+p {
+    font-size: 1.7vw;
+}
+li {
+    font-size: 1.7vw;
+}
+img {
+    width: 60vw;
+  }
+
+#picture1 {
+    display: none;
+}
+#transportation1 img {
+      width: 35vw;
+  }
+
+  #transportation2 img {
+      width: 40vw;
+  }
+      }
+
+      @media only screen 
+      and (min-device-width: 768px)   
+      and (max-device-width: 991px) {
+        #about p {
+    font-size: 2vw;
+}
+
+#do p {
+    font-size: 2vw;
+}
+
+#transportation p {
+    font-size: 2vw;
+}
+img {
+    width: 90vw;
+}
+h2 {
+    font-size: 3vw;
+}
+  h1 {
+    font-size: 5vw;
+}
+  li a {
+    font-size: 1.5vw;
+}
+  p {
+    font-size: 1.7vw;
+}
+
+li {
+    font-size: 1.7vw;
+}
+  #picture1 {
+    display: none;
+  }
+
+  #transportation1 img {
+      width: 35vw;
+  }
+
+  #transportation2 img {
+      width: 40vw;
+  }
+      }
+
+      @media only screen 
+      and (max-device-width: 767px) {
+        #navigation_bar li {
+    float: none;
+        }
+
+img {
+    width: 90vw;
+}
+h1 {
+    font-size: 10vw;
+}
+h2 {
+    font-size: 6vw;
+}
+li a {
+    font-size: 3.4vw;
+}
+p {
+    font-size: 3.4vw;
+}
+
+li {
+    font-size: 3.4vw;
+}
+#about {
+    border: 1px solid black;
+    float: left;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#do {
+    border: 1px solid black;
+    float: right;
+    padding-right: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#do p {
+    font-size: 4.2vw;
+}
+
+#about p {
+    font-size: 4.2vw;
+}
+
+#transportation {
+    border: 1px solid black;
+    float: left;
+    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+#transportation1 {
+    border: 1px solid black;
+}
+#transportation2 {
+    border: 1px solid black;
+}
+#transportation p {
+    font-size: 4.2vw;
+}
+
+  #about1 {
+    border: 1px solid black;
+    float: right;
+    padding-left: 10px;
+  }
+
+  #other {
+    border: 1px solid black;
+    float: left;
+    padding-right: 10px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  #xxx {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #picture2 {
+    display: none;
+}
+    }
+    </style>
+    <title>Can Tho City</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Can Tho City</h1>
+    </header>
+    <div id="navigation_bar">
+        <ul>
+            <li><a href="menu.html">Home</a></li>
+            <li><a href="page2.html">Cai Rang Floating Market</a></li>
+            <li><a href="page3.html">My Khanh Ecotourism</a></li>
+            <li><a href="page4.html">Can Tho Bridge</a></li>
+            <li><a class="active" href="page5.html">Thien Vien Truc Lam Phuong Nam</a></li>
+        </ul>
+    </div>
+
+    <div class="row">
+    <div id="about" class="col-8 col-s-12">
+        <p>About</p>
+    </div>
+    </div>
+
+    <br>
+    
+
+    <div class="row">
+
+    <div class="col-12 col-s-12" style="float: left;padding-left: 5px;">
+      <img src="1200px-Toàn_cảnh_TV_Trúc_Lâm_Phương_Nam.jpg" alt="Thien Vien Truc Lam Phuong Nam" style="width: 90vw;">
+      <p style="text-align: center;"><i>Source:https://vi.wikipedia.org/</i></p>
+    </div>
+
+    <div class="col-12 col-s-12" id="about1">
+      <p> Mingling with the atmospherics and the dust of a mundane life, Trúc Lâm Zen Monastery (Thiền viện Trúc Lâm) still seems to cover itself with grace and peace.
+           Pure and simple, that is all it has when the image comes to mind. It coincides with the life of the city, and contemplates the succeeding of numerous 
+           generations in Cần Thơ, growing and returning to dust.
+        <br> 
+        <br>
+        <i>Source:https://storage.ctu.edu.vn</i>
+      </p>
+    </div>   
+  </div>
+
+  <br>
+  <div class="row">
+    <div id="do" class="col-8 col-s-12">
+        <p>Not to forget</p>
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-8 col-s-12" id="picture1" style="float: right;">
+      <img src="1280px-Thiền_viện_Trúc_Lâm_Phương_Nam.jpg" alt="Thien Vien Truc Lam Phuong Nam">
+      <p style="text-align: center;"><i>Source:https://vi.wikipedia.org/</i></p>
+    </div>
+
+    <div id="other" class="col-4 col-s-12">
+        <p>Information</p>
+          <ul>
+        <li>Address: TL 923, My Khanh, Phong Dien district, Can Tho City</li>
+        <li>Phone number: +84 129 905 5579</li>
+        <li>English name: The Southern Truc Lam Zen Monastery</li>
+        <li>Open time: 6h-18h (For further information, please contact to +84 129 905 5579) </li>
+        <li>Tickets: Free</li>
+        </ul>
+    </div>
+
+    <div class="col-8 col-s-12" id="picture2" style="float: right;">
+        <img src="1280px-Thiền_viện_Trúc_Lâm_Phương_Nam.jpg" alt="Thien Vien Truc Lam Phuong Nam">
+        <p style="text-align: center;"><i>Source:https://vi.wikipedia.org/</i></p>
+    </div>
+    
+  </div>
+   
+  <div class="row">
+    <div id="transportation" class="col-8 col-s-12">
+        <p>More picture</p>
+    </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+
+    <div class="col-5 col-s-12" id="transportation1">
+      <img src="375px-Tam_quan_Thiền_viện_Trúc_Lâm_Phương_Nam.jpg" alt="Thiền_viện_Trúc_Lâm_Phương_Nam">
+      <p><i>Source:https://vi.wikipedia.org/</i></p>
+    </div>
+
+
+    <div class="col-6 col-s-12" id="transportation2">
+      <img src="thienvientruclamphuongnam1.jpg" alt="Thiền_viện_Trúc_Lâm_Phương_Nam">
+      <p><i>Source:http://www.vietnam-tourism.com/</i></p>
+    </div>   
+  </div>
+
+    <div id="xxx">
+      <h2>Can Tho City - The heart of Mekong Delta</h2>
+    </div>
+  
+    <footer>
+      <div id="footer1">
+      <p>This website is made by J.T</p>
+    </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+li {
+    float: none;
+}
+img {
+    width: 90vw;
+}
+h1 {
+    font-size: 6vw;
+}
+li a {
+    font-size: 3.4vw;
+}
+p {
+    font-size: 3.4vw;
+}
+
+#about {
+    border: 1px solid black;
+    float: right;
+    padding-left: 10px;
+  }
+
+  #other {
+    border: 1px solid black;
+    float: left;
+    padding-right: 10px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  #xxx {
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #picture2 {
+    display: none;
+}
